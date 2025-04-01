@@ -191,9 +191,9 @@ void MonthlyBudget::getMonthlyReport(fstream &budgetFile, fstream &expenseFile, 
                                expenses.insuranceEx + expenses.entertainmentEx + expenses.clothingEx +
                                expenses.miscEx;
 
-        toFile << "Total Budget: " << totalBudget << "\n";
-        toFile << "Total Expenses: " << totalExpenses << "\n";
-        toFile << "Remaining Balance: " << (totalBudget - totalExpenses) << "\n";
+        toFile << "Total Budget:  " << totalBudget << "\n";
+        toFile << "Total Expenses:  " << totalExpenses << "\n";
+        toFile << "Remaining Balance:  " << (totalBudget - totalExpenses) << "\n";
         toFile << "--------------------------------------------------------------------\n";
     }
 
