@@ -57,7 +57,7 @@ void MonthlyBudget::getMonths(int &months) {
     while (!(cin >> months) || months <= 0) {
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        cout << "Please enter a valid positive number of months: ";
+        cout << "Please enter a valid positive number of month: ";
     }
     cout << "--------------------------------------------------------------------\n";
 }
