@@ -7,7 +7,7 @@ This project is an Expense Management System written in C++. It allows users to 
 - Input monthly budget for various categories (e.g., housing, utilities, food, etc.)
 - Input actual monthly expenses for the same categories.
 - Generate monthly reports that compare budgeted amounts to actual expenses.
-- Calculate the remaining balance for each month
+- Calculate the remaining balance for each month.
 
 ## Classes and Methods
 
