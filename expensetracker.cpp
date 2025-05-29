@@ -47,7 +47,7 @@ public:
 // Function to display program description
 void MonthlyBudget::describeProgram() {
     cout << "--------------------------------------------------------------------\n";
-    cout << "|                       EXPENSE MANAGEMENT SYSTEM                   |\n";
+    cout << "|                      EXPENSE MANAGEMENT SYSTEM                  |\n";
     cout << "--------------------------------------------------------------------\n";
 }
 
