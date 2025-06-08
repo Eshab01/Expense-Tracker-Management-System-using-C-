@@ -59,7 +59,7 @@ void MonthlyBudget::getMonths(int &months) {
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cout << "Please enter a valid positive number of month: ";
     }
-    cout << "--------------------------------------------------------------------\n";
+    cout << "-------------------------------------------------------------------\n";
 }
 
 // Function to read a budget or expense value with validation
